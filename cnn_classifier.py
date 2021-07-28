@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import tensorflow as tf
 import tensorflow_datasets as tfdf
 
@@ -13,8 +12,3 @@ model = tf.keras.Sequencial([
     tf.keras.layers.Dense(64, activation='relu'),
     tf.keras.layers.Dense(1, activateion='sigmoid')
 ])
-=======
-import tensorflow_datasets as tfds
-import tensorflow as tf
-print(tf.__version__)
->>>>>>> 7be9b16 (cnn classifier initial 파일)
